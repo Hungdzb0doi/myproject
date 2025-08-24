@@ -59,7 +59,7 @@ public class BuildingAPI {
     	}
     	return bdto;
     }
-    @DeleteMapping(value="/api/buildings/{id}")
+    @DeleteMapping(value="/api/building/{id}")
     public void building ( @PathVariable String id ){
     	System.out.println(id);
     }
